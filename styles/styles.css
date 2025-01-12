@@ -1,0 +1,510 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+.root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(252, 253, 253);
+    margin: 0px 130px;
+}
+
+.root .hero-parent {
+    /* Frame 2087325624 */
+    position: absolute;
+    width: 1536px;
+    height: 4973px;
+    left: 0;
+    top: 115px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 76;
+    padding: 0px;
+
+
+}
+
+.root .hero-parent .hero{
+    /* Frame 4 */
+    position: static;
+    width: 1050px;
+    height: 400px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    /* gap: 61; */
+    padding: 76px 96px 76px 96px;
+    /* Inside Auto Layout */
+    /* flex: none; */
+    /* order: 0; */
+    /* flex-grow: 0; */
+    /* margin: 50px 100px; */
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.root .hero-parent .hero .hero-des{
+        /* Frame 3 */
+    /* position: static; */
+    width: 597px;
+    height: 300px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15;
+    /* padding: 0px; */
+    /* Inside Auto Layout */
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+    /* margin: 0px 61px; */
+
+}
+.root .hero-parent .hero .hero-des h6 {
+    width: 597px;
+    height: 10px;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14; */
+    /* flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;*/
+    margin: 0px 0px;
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 20px;
+    /* font-weight: 500;
+    line-height: 29px; */
+    /* letter-spacing: 0%; */
+    text-align: left;
+}
+.root .hero-parent .hero .hero-des p{
+    /* position: static; */
+    width: 500px;
+    height: 100px;
+    /* Auto layout */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50;     */
+
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+}
+.root .hero-parent .hero .hero-des .btn-bd{
+    width: 270px;
+    height: 56px;
+    margin-top: 60px;
+    padding: 16px 32px 16px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 552;
+    line-height: 20px;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+}
+.root .hero-parent .hero .hero-des .hero-img img{
+        /* Group 1 */
+    /* position: static; */
+    width: 450.03px;
+    height: 300px;
+    /* Inside Auto Layout */
+    flex: none;
+    /* order: 1; */
+    /* flex-grow: 0; */
+    margin: 0px 61px;
+}
+
+.root .second{
+    margin-top: 750px;
+
+}
+.second h3{
+    width: 1228px;
+    height: 46px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 35px;
+    font-weight: 672;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.second .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.second .card .card-1{
+    width: 250px;
+    height: 210px;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(225, 229, 233);
+}
+
+.second .card .card-1 img{
+    /* Vector */
+    width: 50.66px;
+    height: 49.09px;
+    left: 9.34px;
+    top: 1px;
+}
+
+.second .card .card-1 h4{
+    width: 199px;
+    height: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.second .card .card-1 p{
+    width: 220px;
+    height: 40px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.root .vision{
+
+}
+.root .vision h4{
+    width: 1228px;
+    height: 40px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 35px;
+    font-weight: 672;
+    line-height: 46px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.root .vision p{
+    width: 1228px;
+    height: 40px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.root .vision .v-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.root .vision .v-card .v-card-1{
+    width: 340px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 24px;
+}
+.root .vision .v-card .v-card-1 img{
+    width: 50.66px;
+    height: 49.09px;
+    left: 9.34px;
+    top: 1px;
+}
+.root .vision .v-card .v-card-1 h6{
+    width: 199px;
+    height: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.root .vision .v-card .v-card-1 p{
+    width: 220px;
+    height: 40px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.root .vision .v-card .v-card-1 .vbtn{
+    width: 82px;
+    height: 19px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 2px 10px;
+
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    /* margin: 24px 0px; */
+    }
+
+/* v-card-2  */
+
+.root .vision .v-card .v-card-2{
+    width: 340px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);;
+    padding: 24px;
+}
+.root .vision .v-card .v-card-2 img{
+    width: 50.66px;
+    height: 49.09px;
+    left: 9.34px;
+    top: 1px;
+}
+.root .vision .v-card .v-card-2 h6{
+    width: 199px;
+    height: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.root .vision .v-card .v-card-2 p{
+    width: 220px;
+    height: 40px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.root .vision .v-card .v-card-2 .vbtn{
+    width: 82px;
+    height: 19px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 2px 10px;
+
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    /* margin: 24px 0px; */
+    }
+
+/* v-card-3 */
+    
+.root .vision .v-card .v-card-3{
+    width: 340px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 24px;
+}
+.root .vision .v-card .v-card-3 img{
+    width: 50.66px;
+    height: 49.09px;
+    left: 9.34px;
+    top: 1px;
+}
+.root .vision .v-card .v-card-3 h6{
+    width: 199px;
+    height: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.root .vision .v-card .v-card-3 p{
+    width: 220px;
+    height: 40px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.root .vision .v-card .v-card-3 .vbtn{
+    width: 82px;
+    height: 19px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 2px 10px;
+
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    /* margin: 24px 0px; */
+    }
+
+    /* dr-yunus */
+
+.root .vision .dr-y{
+    /* background-image: url(../assets/quote-bg.png); */
+    
+}
