@@ -149,43 +149,31 @@
 }
 
 .root .hero-parent {
-    /* Frame 2087325624 */
-    position: absolute;
-    width: 1536px;
-    height: 4973px;
+    position: relative; /* Change to relative to avoid conflict with child flexbox */
+    width: 100%; /* Make it responsive */
+    height: 400px; /* Adjust height dynamically */
     left: 0;
     top: 115px;
-    /* Auto layout */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 76;
+    justify-content: center; /* Center along the main axis */
+    align-items: center; /* Center along the cross axis */
     padding: 0px;
-
-
 }
 
-.root .hero-parent .hero{
-    /* Frame 4 */
-    /* position: static; */
-    width: 1050px;
-    height: 400px;
-    /* Auto layout */
+.root .hero-parent .hero {
+    width: 100%; /* Adjust for responsiveness */
+    max-width: 1150px; /* Maintain a maximum size */
+    height: 400px; /* Adjust height dynamically */
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: center; /* Ensure the banner content is centered */
     align-items: center;
-    /* gap: 61; */
-    padding: 76px 96px 76px 96px;
-    /* Inside Auto Layout */
-    /* flex: none; */
-    /* order: 0; */
-    /* flex-grow: 0; */
-    /* margin: 50px 100px; */
+    padding: 76px 48px; /* Reduce padding for smaller screens */
     border-radius: 24px;
     background: rgb(198, 228, 214);
 }
+
 .root .hero-parent .hero .hero-des{
         /* Frame 3 */
     /* position: static; */
@@ -275,7 +263,7 @@
 }
 
 .root .second{
-    margin-top: 600px;
+    margin-top: 290px;
 
 }
 .second h3{
