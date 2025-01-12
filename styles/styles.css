@@ -105,8 +105,39 @@
     font-weight: 900;
     font-style: italic;
   }
-  
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav h3{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    
+    /* margin: 0px 9px; */
+    padding: 24px 140px 24px 140px;
 
+}
+.nav button{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    padding: 10px 15px 10px 15px;
+    /* font */
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 40px 130px;
+
+
+}
 .root{
     display: flex;
     flex-direction: column;
@@ -135,7 +166,7 @@
 
 .root .hero-parent .hero{
     /* Frame 4 */
-    position: static;
+    /* position: static; */
     width: 1050px;
     height: 400px;
     /* Auto layout */
@@ -163,7 +194,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 15;
+    /* gap: 15; */
     /* padding: 0px; */
     /* Inside Auto Layout */
     /* flex: none;
@@ -242,7 +273,7 @@
 }
 
 .root .second{
-    margin-top: 750px;
+    margin-top: 600px;
 
 }
 .second h3{
