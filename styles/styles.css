@@ -584,7 +584,74 @@
 
 }
  
-.news .n1{
+.root .news .n1{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    border-radius: 24px;
+    width: 1228px;
+    height: 385px;
+    background: rgb(231, 236, 237);
+    margin: 24px 0px;
+}
+.news .n1 .n1-img img{
+    width: 450px;
+    height: 293px;
+    margin: 50px 50px;
+    border-radius: 18px;
+    background: url(assets/satelite.png);
+}
+.root .news .n1 .n1-des{
+    margin: 30px 40px 30px 40px ;
+}
+.root .news .n1 .n1-des h4{
+    width: 500px;
+    height: 0px;
+    /* margin: 40px 0px; */
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 26px;
+    font-weight: 672;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.root .news .n1 .n1-des .date{
+    width: 400px;
+    height: 23px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight:384;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.root .news .n1 .n1-des p{   
+    width: 600px;
+    height: 72px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.root .news .n1 .n1-des button{
+    width: 133px;
+    height: 46px;
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    margin: 0px 0px;
+
+    /* font */
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 576;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
 }
