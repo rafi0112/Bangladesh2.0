@@ -225,6 +225,10 @@
     border-radius: 8px;
     background: rgb(0, 106, 80);
 }
+.root .hero-parent .hero .hero-des .btn-bd:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 106, 80);
+}
 .root .hero-parent .hero .hero-des .hero-img img{
         /* Group 1 */
     /* position: static; */
@@ -386,7 +390,10 @@
     border-radius: 8px;
     background: rgb(84, 144, 245);
     /* margin: 24px 0px; */
-    }
+}
+
+
+
 
 /* v-card-2  */
 
@@ -655,6 +662,11 @@
     letter-spacing: 0%;
     text-align: left;
 }
+.root .news .n1 .n1-des button:hover{
+    background: rgb(163, 229, 213);
+
+}
+
 
 /* donate today */
 .root .donate h4{
