@@ -135,8 +135,10 @@
     font-weight: 600;
     line-height: 15px;
     margin: 40px 130px;
-
-
+}
+.nav button:hover{
+    background: rgb(15, 60, 30);
+    color: white;
 }
 .root{
     display: flex;
